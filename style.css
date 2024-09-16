@@ -3,3 +3,38 @@ body {
     background: linear-gradient(0deg, rgba(40,0,44,1) 95%, rgba(81,0,108,1) 100%) no-repeat center center fixed;
     background-size: cover;
 }
+
+.title{
+    margin-top: 1vw;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+}
+.title img{
+    width: 20vw;
+    height: auto;
+}
+
+.demo {
+    margin-top: 1vw;
+    margin-bottom: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.demo video{
+    width: 50vw;
+    height: auto;
+}
+
+.tattoo-showcase {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.tattoo-showcase img {
+    margin: 0 1vw;
+    width: 15vw;
+    height: auto;
+}
