@@ -1,7 +1,8 @@
 body {
-    background: rgb(80,0,84);
+    /* background: rgb(80,0,84); */
     background: linear-gradient(0deg, rgba(40,0,44,1) 95%, rgba(81,0,108,1) 100%) no-repeat center center fixed;
     background-size: cover;
+    color: rgb(255, 180, 25);
 }
 
 .title{
@@ -17,14 +18,36 @@ body {
 
 .demo {
     margin-top: 1vw;
-    margin-bottom: 10vw;
+    margin-bottom: 2vw;
     display: flex;
     justify-content: center;
 }
 
 .demo video{
-    width: 50vw;
+    width: 45vw;
     height: auto;
+}
+
+.about {
+    margin: 1vw 15vw 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.drop {
+    margin-top: 1vw;
+    margin-right: 20vw;
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: right;
+}
+.drop select{
+    width: 4vw;
+    height: 2vw;
+    font-size: 1.2em;
+    background-color: rgb(255, 180, 25);
+    color: rgb(80,0,84);
+    border-radius: 10px;
 }
 
 .tattoo-showcase {
@@ -39,3 +62,6 @@ body {
     height: auto;
 }
 
+@media screen and (max-width: 600px) {
+
+}
