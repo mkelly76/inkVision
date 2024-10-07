@@ -1,8 +1,25 @@
+@font-face {
+    font-family: 'Arial Rounded MT Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arial Rounded MT Regular'), url('fonts/ARIALROUNDEDMT.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Arial Rounded MT Bold Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arial Rounded MT Bold Regular'), url('fonts/ARLRDBD.woff') format('woff');
+}
+
 body {
     /* background: rgb(80,0,84); */
-    background: linear-gradient(0deg, rgba(40,0,44,1) 95%, rgba(81,0,108,1) 100%) no-repeat center center fixed;
+    background: linear-gradient(0deg, #28002c 95%, rgba(81,0,108,1) 100%) no-repeat center center fixed;
     background-size: cover;
-    color: rgb(255, 180, 25);
+    color: #ffb419;
+    font-family: 'Arial Rounded MT Regular';
+
 }
 
 .title{
@@ -12,7 +29,7 @@ body {
     justify-content: center;
 }
 .title img{
-    width: 20vw;
+    width: 50vw;
     height: auto;
 }
 
@@ -29,6 +46,8 @@ body {
 }
 
 .about {
+
+      
     margin: 1vw 15vw 5vw;
     display: flex;
     justify-content: center;
@@ -45,7 +64,7 @@ body {
     width: 4vw;
     height: 2vw;
     font-size: 1.2em;
-    background-color: rgb(255, 180, 25);
+    background-color: rgb(222, 156, 23);
     color: rgb(80,0,84);
     border-radius: 10px;
 }
