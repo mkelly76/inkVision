@@ -81,8 +81,10 @@ body {
     width: 15vw;
     height: auto;
     background-color: aliceblue;
-    object-fit: cover;
-    /* object-fit: contain; */
+    /*clips pictures*/
+    /* object-fit: cover;  */
+
+    object-fit: contain;
 }
 
 @media screen and (max-width: 600px) {
