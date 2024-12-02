@@ -48,8 +48,8 @@ body {
 .about {
 
       
-    margin: 1vw 15vw 5vw;
-    display: flex;
+    margin: 1vw 17vw 2vw;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -88,5 +88,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-
+ body {
+    font-size: .5em;
+ }
 }
