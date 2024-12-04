@@ -48,8 +48,6 @@ body {
 }
 
 .about {
-
-    
     margin: 1vw 17vw 2vw;
     display: inline-block;
     justify-content: center;
@@ -113,13 +111,35 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+.title{
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+}
+.title img{
+    width: 65vw;
+    height: auto;
+}
  body {
-    font-size: .5em;
+    font-size: 1em;
  }
+ .about{
+    margin: 1vw 5vw 2vw;
+ }
+ .demo video{
+    width: 90vw;
+    height: auto;
+}
+.tattoo-showcase {
+    margin: 1vw 5vw 2vw;
+}
+.tattoo-showcase img {
+    width: 15vw;
+    height: auto;
+}
 }
 
 @media screen and (min-width: 1300px) {
     body {
        font-size: 1.2em;
     }
-   }
+}
