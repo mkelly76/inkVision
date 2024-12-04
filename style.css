@@ -23,13 +23,13 @@ body {
 }
 
 .title{
-    margin-top: 1vw;
+    margin-top: 3vw;
     margin-bottom: 5vw;
     display: flex;
     justify-content: center;
 }
 .title img{
-    width: 50vw;
+    width: 25vw;
     height: auto;
 }
 
@@ -43,14 +43,21 @@ body {
 .demo video{
     width: 45vw;
     height: auto;
+
+    filter: drop-shadow(0 0 .75rem #ffb419);
 }
 
 .about {
 
-      
+    
     margin: 1vw 17vw 2vw;
     display: inline-block;
     justify-content: center;
+    
+}
+
+.about p{
+    text-shadow: 1px 1px rgba(240,248,255,.3);
 }
 
 .drop {
@@ -77,14 +84,32 @@ body {
     justify-content: center;
 }
 .tattoo-showcase img {
-    margin: 0 1vw;
     width: 15vw;
     height: auto;
     background-color: aliceblue;
-    /*clips pictures*/
-    /* object-fit: cover;  */
+}
 
-    object-fit: contain;
+.img-wrapper {
+    margin: 0 1vw;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    
+    vertical-align: middle;
+}
+
+.img-wrapper img:hover {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
 }
 
 @media screen and (max-width: 600px) {
@@ -92,3 +117,9 @@ body {
     font-size: .5em;
  }
 }
+
+@media screen and (min-width: 1300px) {
+    body {
+       font-size: 1.2em;
+    }
+   }
