@@ -44,7 +44,7 @@ body {
     width: 45vw;
     height: auto;
 
-    filter: drop-shadow(0 0 .75rem #ffb419);
+    filter: drop-shadow(0 0 .75rem #FFA6C9);
 }
 
 .about {
@@ -109,11 +109,11 @@ body {
 }
 
 .img-wrapper img:hover {
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -moz-transform:scale(1.5); /* Firefox */
-    -ms-transform:scale(1.5); /* IE 9 */
-    -o-transform:scale(1.5); /* Opera */
-    transform:scale(1.5);
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
 }
 
 @media screen and (max-width: 600px) {
