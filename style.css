@@ -203,6 +203,9 @@ h3 {
     margin: 0 auto;
     padding: 2em 0 2em 0;
 }
+iframe {
+    padding: 2em 0 2em 0;
+}
 
 footer {
     color:#8CD1C5;
